@@ -1,2 +1,6 @@
 app
 *.oc
+*.ob
+src/me
+src/mec
+src/mecw
