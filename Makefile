@@ -6,9 +6,12 @@ all: build
 	cp -r jasspa/macros app
 	cp -r jasspa/pixmaps app
 	cp -r jasspa/spelling app
-	mv src/mecw app/bee
+	mv src/me app/bee
 
 
 build: src
 	cd src && ./build
+
+clean:
+	cd src && ./build -C
 
